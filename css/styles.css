@@ -1,0 +1,250 @@
+*{
+    font-family:'Open Sans', sans-serif;;
+    text-align:center;
+    color:rgb(87, 86, 86);
+    
+} 
+
+.name{
+    font-size: 90px;
+}
+
+img{
+    max-width:100%;
+}
+
+.nav{
+    text-transform: uppercase;
+    list-style: none;
+    font-weight:300;
+    font-size:x-large;
+    padding:3%;
+}
+
+.contain-box{
+    padding-top:15%;
+    padding-bottom:3%;
+}
+
+.info{
+    padding-top:75px;
+
+}
+.marketing{
+    padding-top:15%;
+}
+
+body{
+    padding:10%;
+}
+
+a:hover{
+    color:orange;
+}
+
+.info, #contact{
+    color:rgb(196, 195, 195);
+    font-size:large;
+}
+
+.footer-nav{
+    display:flex;
+    flex-direction:row;
+    font-size:1px;
+}
+
+.footer-nav li{
+    font-size:17px;
+    list-style:none;
+}
+
+#contact{
+    margin-bottom:50px;
+}
+
+
+h2{
+    text-transform:uppercase;
+    font-weight:bolder;
+    font-size: medium;
+}
+
+h3{
+    font-weight:100;
+    font-size:large;
+}
+
+.contacts{
+    font-weight:bold;
+}
+
+.project{
+    padding-bottom: 20px;
+}
+
+.footerPar{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+.cal{
+    padding-bottom:60px;
+}
+
+.footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-weight: bolder;
+    font-size:large;
+}
+
+.Ratings{
+    color:lawngreen;
+}
+
+img:hover{
+    transform:skew(10deg);
+}
+
+
+@media screen and (min-width: 768px) {
+   .info{
+       display:flex;
+       flex-direction:row-reverse;
+       padding-right:8%;
+
+   }
+
+   .body{
+       padding-left:16%;
+       padding:0%;
+   }
+
+   .Ratings{
+       margin-bottom:40px;
+   }
+
+   #contact{
+       width:70%;
+       margin:auto;
+       padding-right:3%;
+       display:inline-block;
+       margin-bottom:5%;
+   }
+
+   .info p{
+       width:43%;
+       padding-right:11%;
+   }
+
+   
+   .nav{
+       display:flex;
+       width:820px;
+       padding-left:73px;
+   }
+
+   .project{
+       float:left;
+       width:45%;
+   }
+
+   .marketing-project, .travel, .photo{
+       margin-right:2%;
+   }
+    
+   .head-img{
+       width:45%;
+   }
+}
+
+@media screen and (min-width: 1024px){
+    .info{
+        display:flex;
+        flex-direction:row-reverse;
+        padding-right:8%;
+ 
+    }
+ 
+    .body{
+        padding-left:16%;
+        padding:0%;
+    }
+ 
+    .photo, .cal{
+        margin-bottom:40px;
+    }
+ 
+    #contact{
+        width:70%;
+        margin:auto;
+        padding-right:3%;
+    }
+ 
+    .info p{
+        width:53%;
+        padding-right:2%;
+
+    }
+
+    .name{
+        font-size:35px;
+    }
+    
+    .nav{
+        width:820px;
+        padding-left:179px;
+        margin:initial;
+        padding-bottom:0px;
+    
+    }
+ 
+    .project{
+        float:left;
+        width:30%;
+    }
+ 
+    .marketing-project, .travel, .photo{
+        margin-right:2%;
+    }
+     
+    .search, .map{
+        margin-right:2%;
+    }
+    .head-img{
+        width:45%;
+    }
+
+    .port-h2{
+        margin-bottom:5%;
+    }
+
+    #contact{
+        width: 70%;
+        margin: auto;
+        padding-right: 3%;
+        display: inline-block;
+        margin-bottom:5%;
+    }
+
+    .contain-box{
+        padding-bottom: 13%;
+    }
+
+    .name-nav{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    h1{
+        padding-right:15%;
+    }
+
+    .cal, .photo{
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+    
+}
