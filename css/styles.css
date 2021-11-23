@@ -6,7 +6,7 @@
 } 
 
 .name{
-    font-size: 90px;
+    font-size: 65px;
 }
 
 img{
@@ -19,6 +19,13 @@ img{
     font-weight:300;
     font-size:x-large;
     padding:3%;
+    background-color: aqua;
+}
+
+.nav_ul{
+    margin-bottom:15px;
+    line-height:60px;
+    list-style: none;
 }
 
 .contain-box{
@@ -38,6 +45,9 @@ body{
     padding:10%;
 }
 
+.port-h2{
+    color:rgb(240, 58, 13);
+}
 a:hover{
     color:orange;
 }
@@ -47,15 +57,24 @@ a:hover{
     font-size:large;
 }
 
+.footName{
+    margin-top:10px;
+    margin-bottom:0;
+}
+
 .footer-nav{
     display:flex;
     flex-direction:row;
-    font-size:1px;
+    justify-content: space-between;
+    font-size:9px;
+    padding-left:0px;
+    list-style: none;
 }
 
 .footer-nav li{
     font-size:17px;
     list-style:none;
+    margin-right:2px;
 }
 
 #contact{
@@ -97,7 +116,7 @@ h3{
     flex-direction:row;
     justify-content:space-between;
     font-weight: bolder;
-    font-size:large;
+    font-size:9px;
 }
 
 .Ratings{
@@ -115,6 +134,10 @@ img:hover{
        flex-direction:row-reverse;
        padding-right:8%;
 
+   }
+
+   .name{
+       margin-bottom:1px;
    }
 
    .body{
@@ -142,7 +165,8 @@ img:hover{
    
    .nav{
        display:flex;
-       width:820px;
+       flex-direction: column;
+       width:463px;
        padding-left:73px;
    }
 
@@ -188,14 +212,12 @@ img:hover{
         padding-right:2%;
 
     }
-
-    .name{
-        font-size:35px;
-    }
     
     .nav{
-        width:820px;
-        padding-left:179px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:472px;
         margin:initial;
         padding-bottom:0px;
     
@@ -226,7 +248,7 @@ img:hover{
         margin: auto;
         padding-right: 3%;
         display: inline-block;
-        margin-bottom:5%;
+        margin-bottom:15%;
     }
 
     .contain-box{
@@ -238,13 +260,23 @@ img:hover{
         justify-content:space-between;
     }
 
-    h1{
-        padding-right:15%;
-    }
 
     .cal, .photo{
         margin-bottom:0px;
         padding-bottom:0px;
     }
+
+    .name{
+        display:inline;
+    }
     
+    .nav_ul{
+        line-height: 40px;
+        display:flex;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+    .nav_ul a{
+        margin-right:10px;
+    }
 }
